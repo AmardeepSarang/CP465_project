@@ -1,0 +1,111 @@
+Rules, confidence
+math score: 9 -> lunch: standard, 0.8809523809523809
+writing score: 6 -> test preparation course: none, 0.7740112994350282
+reading score: 6 -> test preparation course: none, 0.7584269662921348
+reading score: 9 -> lunch: standard, 0.7398843930635838
+writing score: 9 -> lunch: standard, 0.7357142857142858
+writing score: 9 -> reading score: 9, 0.7214285714285714
+writing score: 8 -> lunch: standard, 0.717741935483871
+parental level of education: high school -> test preparation course: none, 0.7142857142857143
+math score: 8 -> lunch: standard, 0.7116279069767442
+writing score: 7 -> test preparation course: none, 0.6954732510288066
+reading score: 7 -> test preparation course: none, 0.6932773109243697
+reading score: 8 -> lunch: standard, 0.6904761904761905
+race/ethnicity: group D -> test preparation course: none, 0.6870229007633588
+math score: 6 -> test preparation course: none, 0.6825396825396826
+math score: 7 -> lunch: standard, 0.662962962962963
+writing score: 6 -> reading score: 6, 0.6610169491525424
+parental level of education: some college -> test preparation course: none, 0.6592920353982301
+parental level of education: some high school -> lunch: standard, 0.659217877094972
+writing score: 7 -> lunch: standard, 0.6584362139917695
+reading score: 6 -> writing score: 6, 0.6573033707865169
+gender: male -> lunch: standard, 0.6556016597510373
+parental level of education: associate's degree -> lunch: standard, 0.6531531531531531
+test preparation course: none -> lunch: standard, 0.6510903426791277
+parental level of education: some college -> lunch: standard, 0.6504424778761062
+writing score: 8 -> reading score: 8, 0.6491935483870968
+lunch: standard -> test preparation course: none, 0.648062015503876
+reading score: 7 -> writing score: 7, 0.6470588235294118
+gender: female -> test preparation course: none, 0.6447876447876448
+reading score: 7 -> lunch: standard, 0.6428571428571429
+parental level of education: high school -> lunch: standard, 0.6428571428571429
+race/ethnicity: group C -> lunch: standard, 0.6426332288401254
+race/ethnicity: group B -> test preparation course: none, 0.6421052631578947
+math score: 7 -> test preparation course: none, 0.6407407407407407
+gender: male -> test preparation course: none, 0.6390041493775933
+reading score: 8 -> writing score: 8, 0.6388888888888888
+race/ethnicity: group D -> lunch: standard, 0.6374045801526718
+race/ethnicity: group B -> lunch: standard, 0.6368421052631579
+gender: female -> lunch: standard, 0.6351351351351351
+test preparation course: completed -> lunch: standard, 0.6340782122905028
+writing score: 7 -> reading score: 7, 0.6337448559670782
+race/ethnicity: group C -> test preparation course: none, 0.6332288401253918
+writing score: 6 -> gender: male, 0.632768361581921
+lunch: free/reduced -> test preparation course: none, 0.6309859154929578
+parental level of education: associate's degree -> test preparation course: none, 0.6306306306306306
+reading score: 6 -> gender: male, 0.6292134831460674
+reading score: 9 -> gender: female, 0.6184971098265896
+math score: 8 -> test preparation course: none, 0.6093023255813953
+reading score: 8 -> test preparation course: none, 0.6071428571428571
+math score: 6 -> lunch: standard, 0.5978835978835979
+writing score: 8 -> gender: female, 0.592741935483871
+reading score: 9 -> writing score: 9, 0.5838150289017341
+math score: 6 -> gender: female, 0.5714285714285714
+parental level of education: some high school -> test preparation course: none, 0.5698324022346368
+reading score: 8 -> gender: female, 0.5674603174603174
+race/ethnicity: group C -> gender: female, 0.5642633228840125
+writing score: 8 -> test preparation course: none, 0.5604838709677419
+race/ethnicity: group B -> gender: female, 0.5473684210526316
+lunch: free/reduced -> gender: female, 0.532394366197183
+math score: 7 -> gender: female, 0.5296296296296297
+math score: 8 -> gender: male, 0.5255813953488372
+parental level of education: associate's degree -> gender: female, 0.5225225225225225
+parental level of education: some college -> gender: female, 0.5221238938053098
+parental level of education: high school -> gender: male, 0.5204081632653061
+test preparation course: none -> gender: female, 0.5202492211838006
+writing score: 7 -> gender: male, 0.5185185185185185
+test preparation course: completed -> gender: female, 0.5139664804469274
+lunch: standard -> gender: female, 0.5100775193798449
+race/ethnicity: group D -> gender: male, 0.5076335877862596
+reading score: 7 -> gender: male, 0.5042016806722689
+Triples rules:
+"(test preparation course: none, writing score: 8) -> lunch: standard", 0.7769784172661871
+"(reading score: 8, test preparation course: none) -> lunch: standard", 0.738562091503268
+"(gender: female, writing score: 8) -> lunch: standard", 0.7278911564625851
+"(lunch: standard, reading score: 7) -> test preparation course: none", 0.7189542483660131
+"(reading score: 8, writing score: 8) -> lunch: standard", 0.7142857142857143
+"(lunch: standard, race/ethnicity: group D) -> test preparation course: none", 0.7065868263473054
+"(lunch: standard, writing score: 7) -> test preparation course: none", 0.70625
+"(reading score: 7, writing score: 7) -> test preparation course: none", 0.6883116883116883
+"(lunch: standard, reading score: 7) -> writing score: 7", 0.673202614379085
+"(math score: 7, test preparation course: none) -> lunch: standard", 0.6705202312138728
+"(reading score: 7, writing score: 7) -> lunch: standard", 0.6688311688311688
+"(test preparation course: none, writing score: 7) -> lunch: standard", 0.6686390532544378
+"(reading score: 7, test preparation course: none) -> lunch: standard", 0.6666666666666666
+"(lunch: standard, reading score: 8) -> writing score: 8", 0.6609195402298851
+"(gender: male, test preparation course: none) -> lunch: standard", 0.6590909090909091
+"(race/ethnicity: group D, test preparation course: none) -> lunch: standard", 0.6555555555555556
+"(gender: female, race/ethnicity: group C) -> lunch: standard", 0.6555555555555556
+"(gender: female, lunch: standard) -> test preparation course: none", 0.6534954407294833
+"(lunch: standard, reading score: 8) -> test preparation course: none", 0.6494252873563219
+"(gender: male, test preparation course: completed) -> lunch: standard", 0.6494252873563219
+"(race/ethnicity: group C, test preparation course: none) -> lunch: standard", 0.6485148514851485
+"(lunch: standard, math score: 7) -> test preparation course: none", 0.6480446927374302
+"(lunch: standard, writing score: 8) -> reading score: 8", 0.6460674157303371
+"(lunch: standard, writing score: 7) -> reading score: 7", 0.64375
+"(gender: female, test preparation course: none) -> lunch: standard", 0.6437125748502994
+"(reading score: 7, test preparation course: none) -> writing score: 7", 0.6424242424242425
+"(gender: male, lunch: standard) -> test preparation course: none", 0.6424050632911392
+"(lunch: standard, race/ethnicity: group C) -> test preparation course: none", 0.6390243902439025
+"(gender: male, lunch: free/reduced) -> test preparation course: none", 0.6325301204819277
+"(gender: female, lunch: free/reduced) -> test preparation course: none", 0.6296296296296297
+"(test preparation course: none, writing score: 7) -> reading score: 7", 0.6272189349112426
+"(gender: female, test preparation course: completed) -> lunch: standard", 0.6195652173913043
+"(gender: female, race/ethnicity: group C) -> test preparation course: none", 0.6166666666666667
+"(lunch: standard, writing score: 8) -> test preparation course: none", 0.6067415730337079
+"(lunch: standard, writing score: 8) -> gender: female", 0.601123595505618
+"(lunch: standard, race/ethnicity: group C) -> gender: female", 0.5756097560975609
+"(race/ethnicity: group C, test preparation course: none) -> gender: female", 0.5495049504950495
+"(lunch: free/reduced, test preparation course: none) -> gender: female", 0.53125
+"(lunch: standard, test preparation course: none) -> gender: female", 0.5143540669856459
+"(lunch: standard, test preparation course: completed) -> gender: female", 0.5022026431718062

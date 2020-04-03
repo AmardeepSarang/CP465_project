@@ -1,0 +1,10 @@
+Rules, confidence
+gender: male -> lunch: standard, 0.6556016597510373
+test preparation course: none -> lunch: standard, 0.6510903426791277
+lunch: standard -> test preparation course: none, 0.648062015503876
+gender: female -> test preparation course: none, 0.6447876447876448
+gender: male -> test preparation course: none, 0.6390041493775933
+gender: female -> lunch: standard, 0.6351351351351351
+test preparation course: none -> gender: female, 0.5202492211838006
+lunch: standard -> gender: female, 0.5100775193798449
+Triples rules:
